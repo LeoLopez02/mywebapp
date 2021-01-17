@@ -4,6 +4,44 @@
   padding: 0;
 }
 
-/* Nav bar */
+/* Navbar */
 .navbar {
+  justify-content: space-between;
+}
+
+/* Navbar Media */
+@media (max-width: 575.98px) {
+  .logo-A {
+    display: none;
+  }
+  .logo-B {
+    display: flex;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .logo-A {
+    display: flex;
+  }
+  .logo-B {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .logo-A {
+    display: flex;
+  }
+  .logo-B {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-A {
+    display: flex;
+  }
+  .logo-B {
+    display: none;
+  }
 }
